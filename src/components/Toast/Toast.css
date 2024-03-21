@@ -1,0 +1,186 @@
+.Container {
+  width: 777px;
+  height: 680px;
+  border-radius: 40px;
+  gap: 24px;
+  padding: 24px;
+}
+
+.MessageBox {
+  width: 697px;
+  height: 332px;
+  padding: 40px;
+  gap: 24px;
+  border-radius: 20px;
+  background: #f2f3f5;
+}
+
+.Header {
+  width: 617px;
+  height: 36px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.Header > p {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  color: #8d8e8f;
+}
+
+.Name {
+  width: 175px;
+  height: 96px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.Name > p {
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 96px;
+  text-align: left;
+}
+
+.Description {
+  width: 617px;
+  height: 72px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.Description > p {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+}
+
+.Master {
+  width: Hug (371px) px;
+  height: Hug (48px) px;
+  gap: 8px;
+  opacity: 0px;
+}
+
+.Master > p {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: #282829;
+}
+
+.toast {
+  display: flex;
+  align-items: center;
+  background-color: #282829;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  height: 48px;
+  z-index: 9999;
+}
+
+@media (min-width: 768px) {
+  .toast {
+    width: 343px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .toast {
+    width: 87vw;
+  }
+}
+
+.message {
+  margin-left: 10px;
+  flex-grow: 1;
+  color: white;
+}
+
+.divider {
+  height: 24px;
+  width: 1px;
+  background-color: white;
+  margin: 0 10px;
+}
+
+.custom-button {
+  background-color: #47b647;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.circle-icon circle {
+  fill: #282829;
+  color: #282829;
+}
+
+.circle-icon > circle:nth-child(2) {
+  fill: #4077ff;
+}
+
+.circle-icon {
+  color: #282829;
+}
+
+.error-icon {
+  color: #282829;
+}
+
+.error-icon circle {
+  fill: #282829;
+}
+
+.error-icon rect {
+  fill: red;
+}
+
+.error-icon line {
+  stroke: #282829;
+  stroke-width: 16px;
+  z-index: 1;
+}
+
+.warning-icon circle {
+  fill: #282829;
+}
+
+.warning-icon {
+  color: #282829;
+}
+
+.warning-icon line {
+  color: #282829;
+}
+
+.warning-icon > circle:nth-child(2) {
+  fill: #ffc500;
+}
+
+.success-icon {
+  color: #282829;
+}
+
+.success-icon polyline {
+  stroke: #00a151;
+}
